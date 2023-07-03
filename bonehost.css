@@ -1,0 +1,59 @@
+:root {
+	--color-prosetext: darkgrey !important;
+	--color-notBlack: 10 11 12 !important;
+	--color-strawberry: 255 218 41 !important;
+	--color-cherry: 30 34 38 !important;
+	--color-mango: 255 218 41 !important;
+	--color-notwhite: 0 0 0 !important;
+	--rad-general: 0.5rem  !important;
+  }
+  
+  * {
+	  text-shadow: none !important;
+  }
+  
+  .prose {
+	line-height: 1.5 !important;
+	padding: 1.5rem !important;
+  }
+  
+  .bg-cherry {
+	background-color: rgb(255 218 41) !important;
+  }
+  
+  .bg-notWhite {
+	background-color: white !important;
+  }
+  
+  .rounded-lg {
+	border-radius: var(--rad-general)  !important;
+  }
+  
+  .bg-foreground-800 {
+	--tw-bg-opacity: .2  !important;
+	background-color: rgb(var(--color-cherry) / var(--tw-bg-opacity))  !important;
+  }
+  
+  .text-foreground-200 {
+	color: rgb(var(--color-mango) / var(--tw-text-opacity))  !important;
+  }
+  
+  article {
+	width: 92% !important;
+	margin-top: 1rem !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+  }
+  
+  .mx-3 {
+	  margin: 0rem !important;
+  }
+  
+  .p-3 {
+	padding: 1.5rem !important;
+  }
+  
+  .gap-12 {
+	  gap: .5rem !important;
+  }
+  
